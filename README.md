@@ -1,4 +1,4 @@
-# app
+# 初始化项目
 
 > A Vue.js project
 
