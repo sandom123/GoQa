@@ -1,5 +1,6 @@
 FROM node:10.2.1-slim
-RUN apt-get update \    && apt-get install -y nginx
+RUN apt-get -y update
+RUN apt-get -y install nginx
 WORKDIR /app
 COPY . /app/
 EXPOSE 80
